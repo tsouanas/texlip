@@ -1,0 +1,36 @@
+%texlip: +python
+%texlip: +html
+%texlip: +c
+%texlip: #html#<!-- COMMENT -->
+%texlip: #c#/* COMMENT */
+hello
+this is
+nice
+\begin[haha.py]{python}
+def foo(n):
+    return 5
+
+def bar(n, m):
+    return n or m
+\end{python}
+and some more
+\begin[hehe.html]{html}
+<b>fuck</b>
+me sideways
+or <em>not</em>
+\end{html}
+\begin[haha.py]{python}
+# some more python here...
+for i in range(10):
+    print i
+\end{python}
+\begin[hehe.c]{c}
+int main(void) {
+    return 42;
+}
+\end{c}
+\begin[lib/lib.c]{c}
+int main(void) {
+    return 19;
+}
+\end{c}
